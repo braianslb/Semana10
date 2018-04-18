@@ -1,0 +1,126 @@
+.wrapper {
+	display: flex;
+}
+
+.wrapper div {
+	flex: 1;
+	margin: 20%;
+}
+
+.contenedor {
+     width: 100%;
+     margin: auto;
+     margin-top: 20%;
+     margin-bottom: 20%;
+     background: black;
+     border: 3% solid black;
+}
+
+header {
+     height: 10%;
+     background-color: black;
+     padding: 5%;
+     width: 90%;
+     font-size: 340%;
+     font-family: 'Permanent Marker', cursive;
+}
+
+header h1 {   
+    line-height: 10%;
+    color: white;
+    font-size: 260%;
+    padding: 1%;
+    text-align: center;
+ }
+
+nav {
+   background: white;
+   height: 10%;
+   margin: 1%;
+   text-align: center;
+   word-spacing: 1cm;
+}
+
+nav h2 {
+    font-size: 100%;
+    padding: 10%;
+    text-align: center;
+    line-height: 150%;
+    display: inline;
+    color: black;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+
+}
+
+a:active {
+    color: gray;
+}
+
+.pregunta h3 {
+  text-align: center;
+  color: black;
+  font-size: 90%;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column-1, .column-2 {
+  flex: 1;
+  border:2px solid black;
+  text-align: center;
+  margin: 4%;
+  padding: 1%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 135%;
+}
+
+.column-3, .column-4 {
+  flex: 1;
+  border:2px solid black;
+  text-align: center;
+  margin: 4%;
+  padding: 1%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 135%;
+}
+
+.row div img {
+  border-radius: 50%;
+  width: 50%;
+  color: white;
+}
+
+.row p {
+  margin: 5%;
+ }
+
+
+footer h4 {
+     clear: both;
+     color: black;
+     float: left;
+     font-size: 90%;
+     margin-top: 5%;
+     line-height: 260%;
+     width: 100%;
+}
